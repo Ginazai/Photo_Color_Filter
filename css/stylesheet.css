@@ -11,9 +11,9 @@ h5{
 }
 canvas {
   margin: 20px;
+  border: 2px solid black;
 }
 .btn-cont {
-  text-align: center;
   margin: 30px;
 }
 .content{
@@ -35,4 +35,31 @@ canvas {
   text-align: center;
   background-color: white;
   border-radius: 25px;
+}
+a {
+  color: white !important;
+}
+a:hover{
+  color: #ccc !important;
+  text-decoration: none !important ;
+}
+.slider{
+  width: 40%;
+}
+@media (max-width: 991px){
+  body{
+    font-size: 5em !important;
+  }
+}
+@media (max-width: 767px){
+  .btn{
+    margin: 15px;
+  }
+}
+@media (max-width: 775px) {
+  .card-content{
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }

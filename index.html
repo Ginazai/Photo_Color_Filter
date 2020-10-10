@@ -33,12 +33,15 @@
     </div>
     <div class="container">
     <div class="btn-cont row">
-      <div class="col-lg-6 center">
-        <input id="f_input" type="file" multiple="false" accept="image/*">
+      <div class="col-lg-6 col-sm-12 col-md-6">
+        <button id="event" class="btn btn-primary adjust" type="button"
+        name="button"><a id="download" href="">Download</a></button>
       </div>
-      <div class="col-lg-6">
-        <!-- currently disabled -->
-        <button id="event" class="btn btn-primary adjust" type="button" name="button">Download</button>
+      <div class="col-lg-6 col-sm-12 col-md-6 center">
+        <div class="custom-file">
+          <input class="custom-file-input" id="f_input" type="file" multiple="false" accept="image/*">
+          <label class="custom-file-label" for="f_input">Select your image</label>
+        </div>
       </div>
     </div>
   </div>

@@ -38,4 +38,11 @@ $(document).ready(function() {
     }, 150);
   });
 
+  $('#event').click(function() {
+    var link = canvas.toDataURL('image/png');
+    var a = document.getElementById('download');
+    a.download = 'filteredImage.png';
+    a.href = link;
+  });
+
 });
