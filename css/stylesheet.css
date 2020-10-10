@@ -1,0 +1,38 @@
+body{
+  font-family: 'Dancing Script', cursive !important;
+  background-color: #ffe1e0 !important;
+}
+h1 {
+  text-align: center;
+  margin: 15px !important;
+}
+h5{
+  text-align: center;
+}
+canvas {
+  margin: 20px;
+}
+.btn-cont {
+  text-align: center;
+  margin: 30px;
+}
+.content{
+  text-align: center;
+  margin: 15px;
+}
+#yourImg{
+  max-width: 600px;
+  max-height: 600px;
+  text-align: center;
+}
+#my-colorbar{
+  height: 50px;
+  width: 50px;
+  /* border-radius: 25px; */
+  border: 2px solid #ffe1e0;
+}
+.card-content{
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+}
