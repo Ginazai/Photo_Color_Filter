@@ -50,6 +50,12 @@ a:hover{
   body{
     font-size: 5em !important;
   }
+  .custom-file{
+      font-size: 0.2em !important;
+  }
+  .btn-cont{
+    text-align: center !important;
+  }
 }
 @media (max-width: 767px){
   .btn{
