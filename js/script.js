@@ -54,7 +54,7 @@ $(document).ready(function() {
   });
 
   $('#op_val').keyup(function() {
-    var value = parseInt(this.value);
+    var value = this.value;
       if($.isNumeric(value) && value <= 100){
         document.getElementById('slide').value = value;
         $('#slide').change();

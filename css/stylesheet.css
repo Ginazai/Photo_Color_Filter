@@ -29,7 +29,7 @@ canvas {
   margin: 15px;
 }
 #op_val{
-  width: 35px;
+  width: 55px;
   height: 28px;
   border: 1px solid #969696;
 }
@@ -82,7 +82,7 @@ a:hover{
     font-size: 20px;
   }
   #op_val{
-    width: 45px;
+    width: 65px;
     height: 30px;
   }
 }
