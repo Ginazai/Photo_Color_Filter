@@ -25,6 +25,13 @@ $(document).ready(function() {
 
   });
 
+  $('#my-colorbar').change(function() {
+    document.getElementById('color').innerHTML = this.value;
+    ctx.fillStyle = this.value;
+    ctx.globalAlpha = document.getElementById('slide').value/100;
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+  });
+
   $('#slide').change(function() {
     ctx.clearRect(0,0, canvas.width, canvas.height);
     ctx.globalAlpha = 1;
