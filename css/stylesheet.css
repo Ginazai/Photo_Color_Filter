@@ -13,8 +13,10 @@ canvas {
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 1em;
+  border-radius: 15px;
   border: 2px solid #969696;
+}
+.slidecontainer{margin-bottom: 15px;
 }
 .btn-cont {
   margin: 30px;
@@ -25,6 +27,17 @@ canvas {
 .content{
   text-align: center;
   margin: 15px;
+}
+#op_val{
+  width: 35px;
+  height: 28px;
+  border: 1px solid #969696;
+}
+#op_val:focus{
+  outline: none;
+}
+#percent{
+  margin: 5px;
 }
 #yourImg{
   max-width: 400px;
@@ -63,6 +76,15 @@ a:hover{
 }
 .slider{
   width: 40%;
+}
+@media (min-width: 0px) and (max-width: 991px){
+  .slidecontainer{
+    font-size: 20px;
+  }
+  #op_val{
+    width: 45px;
+    height: 30px;
+  }
 }
 @media (min-width: 901px) and (max-width: 991px){
   .card-content{

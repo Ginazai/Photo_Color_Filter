@@ -33,6 +33,7 @@ $(document).ready(function() {
   });
 
   $('#slide').change(function() {
+    document.getElementById('op_val').value = this.value;
     ctx.clearRect(0,0, canvas.width, canvas.height);
     ctx.globalAlpha = 1;
     ctx.drawImage(image, 0, 0);
@@ -51,5 +52,14 @@ $(document).ready(function() {
     a.download = 'filteredImage.png';
     a.href = link;
   });
+
+  $('#op_val').keyup(function() {
+    var value = parseInt(this.value);
+      if($.isNumeric(value) && value <= 100){
+        document.getElementById('slide').value = value;
+        $('#slide').change();
+      }
+  });
+
 
 });

@@ -26,10 +26,11 @@
         <canvas class="col-lg-12" id="canvas" width="600" height="100">
         </canvas>
       </div>
-      <input id="my-colorbar" type="color" value="#ffe4e3">
-      <br><label id="color" for="my-colorbar"></label>
+      <input name="colorbar" id="my-colorbar" type="color" value="#ffe4e3">
+      <br><label id="color" for="colorbar"></label>
       <div class="slidecontainer">
-        <input id="slide" class="slider" type="range" min="0" max="100" value="50">
+        <input id="op_val" type="text" name="op_value" value=""><span id="percent">%</span>
+        <input name="opacity" id="slide" class="slider" type="range" min="0" max="100" value="50">
       </div>
     </div>
     <div class="container">
