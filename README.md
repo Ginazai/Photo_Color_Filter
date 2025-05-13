@@ -1,6 +1,6 @@
 <h1>Simple Image Filter</h1>
 <p>This project consist in a simple way to apply a color filter to an image using just a <code><canvas></code> and some JavaScript.<br>
-You can checkout the result at -> <code>https://ginazai.github.io/Photo_Color_Filter/index.html</code></p>
+You can checkout the result at -> <code><a href="https://ginazai.github.io/Photo_Color_Filter/index.html">https://ginazai.github.io/Photo_Color_Filter/index.html</a></code></p>
 <h2>Technologies</h2>
 <ul>
 	<li>HTML/CSS/JavaScript</li>
@@ -10,5 +10,5 @@ You can checkout the result at -> <code>https://ginazai.github.io/Photo_Color_Fi
 <h2>Installation</h2>
 <ol>
 	<li>Clone the repository: <code>git clone https://github.com/Ginazai/Photo_Color_Filter.git</code></li>
-	<h1>Open the <code>index.html</code> file in your browser and that's it!</h1>
+	<li>Open the <code>index.html</code> file in your browser and that's it!</li>
 </ol>
